@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/Users/koichisato/.nodenv/shims/npx lint-staged
