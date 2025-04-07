@@ -38,3 +38,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## hygen
 `hygen component new`で新しいコンポーネントとストーリーが作成できます
+`eslint`はnext標準のもの
+`lint-stage`
+いれたプラグイン
+`microCMS`:
+`hygen`:コンポーネントのstoriesとtsxを作成します
+`husky`:コミット前にlint+formatをします。lintに引っかかるとコミットできません
+`storybook`:uiのカタログ化
+`tailwind css`:v4,class-variance-authorityとtailwind-mergeも追加
+`yarn`:
+`jotai`:グローバル状態管理
