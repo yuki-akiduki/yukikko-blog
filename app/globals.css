@@ -1,3 +1,20 @@
 @import 'tailwindcss';
-body {
+@config '../postcss.config.ts';
+
+:root {
+  --line-height: 1.5;
+  --font-feature: 'palt';
+  --font-noto-sans-jp: var(--font-noto-sans-jp);
+  --background: #fff;
+  --foreground: #333;
+}
+
+@layer base {
+  body {
+    color: var(--foreground);
+    background: var(--background);
+    line-height: var(--line-height);
+    font-feature-settings: var(--font-feature);
+    font-family: var(--font-noto-sans-jp), sans-serif;
+  }
 }
