@@ -1,5 +1,4 @@
 @import 'tailwindcss';
-@config '../postcss.config.ts';
 
 :root {
   --line-height: 1.5;
